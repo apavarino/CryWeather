@@ -1,0 +1,22 @@
+version: 2.0
+jobs:
+  build:
+    working_directory: ~/CryWeather
+    docker:
+      - image: circleci/openjdk:8-jdk-stretch
+    steps:
+      - checkout
+      - restore_cache:
+          key: CryWeather-{{ checksum "pom.xml" }}
+
+      - run: mvn dependency:go-offline
+
+      - save_cache:
+          paths:
+            - ~/.m2
+          key: CryWeather-{{ checksum "pom.xml" }}
+
+      - run: mvn install
+
+      - store_artifacts:
+          path: /home/circleci/CryWeather/target/CryWeather-SNAPSHOT.jar

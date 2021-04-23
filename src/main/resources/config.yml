@@ -1,0 +1,15 @@
+# ------------------------------------------------------- #
+# PLEASE RELOAD THE PLUGIN AFTER ANY CHANGE ON THIS FILE
+# Need help ? Join us on Discord :
+# https://discord.com/invite/jCsvJxS
+# ------------------------------------------------------- #
+
+# Enable rain : true | false
+rainEnabled: true
+
+# world time speed :
+# -10 : min time speed
+# 0 : time is stopped
+# 1 : default value
+# 10 : max time speed
+worldTimeSpeed: 1

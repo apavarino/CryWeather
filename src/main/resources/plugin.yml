@@ -1,0 +1,65 @@
+name: CryWeather
+main: me.crylonz.CryWeather
+version: "3.0.1"
+api-version: "1.13"
+description: Manage the time
+author: Crylonz
+commands:
+  cw:
+    description: Acess to cryweather command
+    usage: /cw
+permissions:
+    cryweather.rainControl:
+      description: Allows you to enable/disable rain on the server
+      default: op
+    cryweather.day:
+      description: Allows you to enable day
+      default: op
+    cryweather.night:
+      description: Allows you to enable day
+      default: op
+    cryweather.morning:
+      description: Allows you to enable morning
+      default: op
+    cryweather.afternoon:
+      description: Allows you to enable afternoon
+      default: op
+    cryweather.evening:
+      description: Allows you to enable evening
+      default: op
+    cryweather.sun:
+      description: Allows you to enable sun
+      default: op
+    cryweather.rain:
+      description: Allows you to enable rain
+      default: op
+    cryweather.set:
+      description: Allows you to set the time
+      default: op
+    cryweather.day.otherworld:
+      description: Allows you to enable day
+      default: op
+    cryweather.night.otherworld:
+      description: Allows you to enable day
+      default: op
+    cryweather.morning.otherworld:
+      description: Allows you to enable morning
+      default: op
+    cryweather.afternoon.otherworld:
+      description: Allows you to enable afternoon
+      default: op
+    cryweather.evening.otherworld:
+      description: Allows you to enable evening
+      default: op
+    cryweather.sun.otherworld:
+      description: Allows you to enable sun
+      default: op
+    cryweather.rain.otherworld:
+      description: Allows you to enable rain
+      default: op
+    cryweather.set.otherworld:
+      description: Allows you to set the time
+      default: op
+    cryweather.worldspeed:
+      description: Allows you to set the worldspeed
+      default: op
